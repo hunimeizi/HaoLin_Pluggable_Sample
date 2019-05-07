@@ -121,13 +121,3 @@
      }
 
   ```
-  - 以show()和hide()方式控制Fragment显示隐藏，别忘了重写onHiddenChanged方法，如下
-  
-  ```java
-       @Override
-       public void onHiddenChanged(boolean hidden) {
-           super.onHiddenChanged(hidden);
-           if (!hidden && mImmersionBar != null)
-              mImmersionBar.init();
-       }
-    ```
