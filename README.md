@@ -29,8 +29,6 @@
 
     ③ 图片以及xml资源靠Resource加载
 
-## 建议
-
 - 代码实现
 
      ① 创建DexClassLoader加载代码
